@@ -27,13 +27,16 @@ Macierz::Macierz(int wiersze, int kolumny) {
 }
 
     void Macierz::set(int n, int m, double val){
-    if(n<wiersze&& m < kolumny && m >= 0 && n >= 0)macierz1[n][m]=val;
+    if(n<wiersze&& m < kolumny && m >= 0 && n >= 0){
+        macierz1[n][m]=val;
+    }
+    else exit(1);
 }
 
 double Macierz::get(int n, int m){
-   // if(n<wiersze&& m < kolumny && m >= 0 && n >= 0){
+    if(n<wiersze&& m < kolumny && m >= 0 && n >= 0){
         return macierz1[n][m];
-    //}
+    }else exit(1);
 }
 
 int  Macierz::wiersze_tab(){
