@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Toja/CLionProjects/JiPP3v2/Macierz.cpp
+iostream
+-
+string
+-
+vector
+-
+fstream
+-
+Macierz.h
+C:/Users/Toja/CLionProjects/JiPP3v2/Macierz.h
+
+C:/Users/Toja/CLionProjects/JiPP3v2/Macierz.h
+string
+-
+vector
+-
+fstream
+-
+
