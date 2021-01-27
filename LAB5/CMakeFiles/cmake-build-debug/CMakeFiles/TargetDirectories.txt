@@ -1,0 +1,3 @@
+C:/Users/Toja/CLionProjects/JiPP3v2/cmake-build-debug/CMakeFiles/JiPP3v2.dir
+C:/Users/Toja/CLionProjects/JiPP3v2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Toja/CLionProjects/JiPP3v2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
